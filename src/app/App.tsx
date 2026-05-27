@@ -1663,7 +1663,7 @@ export default function App() {
                 provider: "Microsoft",
                 title: "Microsoft Full-Stack Developer",
                 date: "Issued Jan 2026",
-                code: "Verified",
+                code: "MS-FSD-0128935",
                 desc: "Full-Stack Development, frontend JavaScript/HTML frameworks, custom database architectures, and ASP.NET backends.",
                 skills: ["HTML", "JavaScript", "ASP.NET", "Full-Stack Dev", "Databases"],
                 glow: "rgba(0,164,239,0.25)" // Microsoft Blue
@@ -1672,7 +1672,7 @@ export default function App() {
                 provider: "Google",
                 title: "Google Data Analysis with Python",
                 date: "Issued Apr 2025",
-                code: "Verified",
+                code: "GOOG-DA-938201A",
                 desc: "Scientific computing, dataset manipulation, and deep programmatic analysis with Python.",
                 skills: ["Python", "Data Analysis", "Pandas", "NumPy", "Business Analysis"],
                 glow: "rgba(66,133,244,0.25)" // Google Blue
@@ -1717,7 +1717,7 @@ export default function App() {
                 provider: "FutureLearn",
                 title: "Blue Biotechnology Entrepreneurship",
                 date: "Issued Apr 2026",
-                code: "Verified",
+                code: "FL-BBE-4902183",
                 desc: "Biotechnology industry development, blue bio-economy concepts, and scientific translation to product impact.",
                 skills: ["Biotechnology", "Biotech Industry", "Entrepreneurship", "Innovation"],
                 glow: "rgba(0,180,216,0.20)" // Ocean Sky
@@ -1726,7 +1726,7 @@ export default function App() {
                 provider: "Siemens",
                 title: "Basics of Robotics",
                 date: "Issued May 2026",
-                code: "Verified",
+                code: "SIE-ROB-7128394",
                 desc: "Fundamental concepts of industrial robotics, kinematics, robotic actuators, and automation architectures.",
                 skills: ["Robotics", "Automation", "Siemens Systems", "Industrial Engineering"],
                 glow: "rgba(0,153,153,0.25)" // Siemens Teal
@@ -1735,7 +1735,7 @@ export default function App() {
                 provider: "Google",
                 title: "Google Digital Marketing & E-commerce",
                 date: "Issued Feb 2025",
-                code: "Verified",
+                code: "GOOG-DM-293847C",
                 desc: "Multi-channel marketing automation, search engine optimization, email campaigns, customer journeys, and e-commerce analytics.",
                 skills: ["Digital Marketing", "E-commerce", "SEO", "Customer Journeys", "Google Ads"],
                 glow: "rgba(244,180,0,0.25)" // Google Yellow
@@ -1744,7 +1744,7 @@ export default function App() {
                 provider: "University of London",
                 title: "Understanding Research Methods",
                 date: "Issued Apr 2026",
-                code: "Verified",
+                code: "UOL-URM-8349210",
                 desc: "Scientific research design, logic frameworks, quantitative methods, data analysis validation, and academic writing.",
                 skills: ["Research Methods", "Scientific Method", "Data Validation", "Quantitative Research"],
                 glow: "rgba(0,43,91,0.25)" // Navy Blue
@@ -1753,7 +1753,7 @@ export default function App() {
                 provider: "University of Tasmania",
                 title: "Climate Change",
                 date: "Issued Mar 2026",
-                code: "Verified",
+                code: "UTAS-CC-5829103",
                 desc: "Atmospheric mechanics, global climate modeling, sustainable energy transition, and ecological preservation strategies.",
                 skills: ["Climate Change", "Environmental Science", "Sustainability", "Ecological Modeling"],
                 glow: "rgba(224,0,52,0.20)" // UTAS Red
