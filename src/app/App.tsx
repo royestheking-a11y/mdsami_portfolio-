@@ -806,10 +806,10 @@ export default function App() {
             <div className="flex-1 space-y-4">
               <h3 className="text-2xl font-bold font-heading">Who You Collaborate With</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                I am MD Sami, a systems developer and chemical research innovator currently studying at **Saint Petersburg Electrotechnical University LETI** (Russia), after building foundations at **Govt. Syed Hatem Ali College** (Bangladesh). 
+                I am MD Sami, a systems architect and scientific researcher pursuing advanced studies at <strong className="text-foreground">Saint Petersburg Electrotechnical University LETI</strong> (Russia), building upon a rigorous academic foundation from <strong className="text-foreground">Govt. Syed Hatem Ali College</strong> (Bangladesh).
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                My work centers on the synthesis of software engineering, artificial neural systems, and sustainable green technology. I engineer highly robust software backends and build mathematical algorithms that scale.
+                My expertise lies at the intersection of high-performance software engineering, artificial neural networks, and sustainable green technology. I specialize in designing highly resilient backend systems and deploying scalable mathematical algorithms that bridge the gap between digital innovation and physical chemistry.
               </p>
               <div className="flex flex-wrap items-center gap-4 text-xs font-bold text-primary pt-2">
                 <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4 text-secondary shrink-0" /> St. Petersburg, RU</span>
