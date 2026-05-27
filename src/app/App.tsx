@@ -1967,9 +1967,9 @@ export default function App() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
           {[
             { lang: "Bengali", level: "Native Proficiency", score: 100, code: "BN", color: "from-emerald-500/10 to-teal-500/10", border: "border-emerald-500/25", textColor: "text-emerald-500" },
-            { lang: "English", level: "Professional C1", score: 95, code: "EN", color: "from-blue-500/10 to-indigo-500/10", border: "border-blue-500/25", textColor: "text-blue-500" },
+            { lang: "English", level: "Proficient C2", score: 100, code: "EN", color: "from-blue-500/10 to-indigo-500/10", border: "border-blue-500/25", textColor: "text-blue-500" },
             { lang: "German", level: "Intermediate A2", score: 45, code: "DE", color: "from-amber-500/10 to-yellow-500/10", border: "border-amber-500/25", textColor: "text-amber-500" },
-            { lang: "Russian", level: "Advanced B2", score: 80, code: "RU", color: "from-red-500/10 to-rose-500/10", border: "border-red-500/25", textColor: "text-red-500" },
+            { lang: "Russian", level: "Elementary A1", score: 25, code: "RU", color: "from-red-500/10 to-rose-500/10", border: "border-red-500/25", textColor: "text-red-500" },
             { lang: "French", level: "Elementary A1", score: 30, code: "FR", color: "from-purple-500/10 to-fuchsia-500/10", border: "border-purple-500/25", textColor: "text-purple-500" }
           ].map(language => (
             <div key={language.lang} className="p-6 rounded-[24px] border border-border bg-card/30 text-center space-y-4 hover:border-primary/20 hover:scale-[1.02] transition-all flex flex-col justify-between duration-300">
