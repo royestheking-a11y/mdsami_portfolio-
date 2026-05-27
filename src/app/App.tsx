@@ -118,8 +118,8 @@ export default function App() {
   // Core Inspector Console States
   const [showCoreInspector, setShowCoreInspector] = useState<boolean>(false);
   const [inspectorLogLines, setInspectorLogLines] = useState<string[]>([
-    "🤖 Antigravity Core Inspector v6.3.5 initialized.",
-    "🔒 Vite 6 secure sandbox environment active.",
+    "🤖 MD Sami Production Core Inspector v1.0 initialized.",
+    "🔒 Vercel Edge Network production environment active.",
     "💡 Type 'help' or click 'Run Diagnostics' to begin.",
   ]);
   const [terminalInput, setTerminalInput] = useState<string>("");
@@ -138,7 +138,7 @@ export default function App() {
     }, 600);
 
     setTimeout(() => {
-      setInspectorLogLines(prev => [...prev, "🛠️ Neutralizing stale service worker cache coordinates... Done."]);
+      setInspectorLogLines(prev => [...prev, "🛠️ Verifying Vercel Edge Cache integrity... Done."]);
     }, 1200);
 
     setTimeout(() => {
@@ -149,7 +149,7 @@ export default function App() {
       setInspectorLogLines(prev => [
         ...prev,
         "✅ Diagnostics complete. All systems executing with perfect stability.",
-        "🚀 Digital core ready for international high-grade systems integration."
+        "🚀 Live deployment verified. Digital core ready for global scale."
       ]);
       setIsDiagnosticRunning(false);
     }, 2400);
@@ -184,7 +184,7 @@ export default function App() {
         "               .---.                 Sami-Core@antigravity",
         "              /     \\                ---------------------",
         "              \\     /                OS: Antigravity OS v6.3.5",
-        "               `---'                 Host: Vite 6 Sandbox Container",
+        "               `---'                 Host: Vercel Edge Network",
         "       .---.          .---.          Kernel: React 18.3.1 (LTS)",
         "      /     \\        /     \\         Uptime: 100% stable integration",
         "      \\     /        \\     /         Shell: zsh / sami-core-agent",
@@ -2227,7 +2227,7 @@ export default function App() {
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                Vite 6 Sandbox Mode Active
+                Vercel Production Mode Active
               </span>
               
               <button
