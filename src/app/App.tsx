@@ -953,6 +953,42 @@ export default function App() {
           </div>
 
           <div className="relative border-l-2 border-border pl-6 ml-4 space-y-12 max-w-3xl">
+            {/* Experience item 0: RizQara Science and Innovation Club */}
+            <div className="relative group animate-fade-in">
+              {/* Timeline Dot Indicator */}
+              <div className="absolute -left-[33px] top-1.5 w-4 h-4 rounded-full bg-background border-4 border-primary group-hover:scale-125 transition-transform"></div>
+              
+              <div className="space-y-3 bg-card/45 p-6 rounded-2xl border border-border hover:border-primary/20 transition-all">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div>
+                    <h3 className="text-xl font-bold font-heading">RizQara Science and Innovation Club</h3>
+                    <p className="text-sm font-semibold text-primary">Mentor - Tech, AI & Code</p>
+                  </div>
+                  <span className="px-3.5 py-1 bg-background border border-border rounded-full text-xs font-semibold text-muted-foreground">
+                    2026 - Present
+                  </span>
+                </div>
+                
+                <div className="text-[10px] text-muted-foreground font-semibold flex items-center gap-1">
+                  <span>Remote / Global</span>
+                </div>
+                
+                <ul className="text-muted-foreground text-xs space-y-1.5 list-disc pl-4 mt-2 leading-relaxed">
+                  <li><strong>Mentorship:</strong> Guiding aspiring students and members in core concepts of software development, artificial intelligence, and scientific innovation.</li>
+                  <li><strong>Technical Workshops:</strong> Conducting code-alongs and technical seminars focusing on modern AI tools and systems architecture.</li>
+                  <li><strong>Project Leadership:</strong> Overseeing cross-disciplinary technical projects, ensuring robust code quality and practical real-world applications.</li>
+                </ul>
+
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {["Artificial Intelligence", "Mentorship", "Software Engineering", "Tech Leadership", "Code Optimization"].map(tag => (
+                    <span key={tag} className="px-2.5 py-1 rounded-lg bg-background text-[10px] font-bold border border-border">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             {/* Experience item 1: RizQara Tech - Marketing Specialist */}
             <div className="relative group animate-fade-in">
               {/* Timeline Dot Indicator */}
